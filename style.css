@@ -1,0 +1,108 @@
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxTitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    min-width: 600px;
+    margin-bottom: 30px;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.scoresLeft , .scoresRight, .tittleMiddle {
+    width: 150px;
+    border: solid;
+    border-radius: 15px;
+    margin: 5px 10px;
+}
+
+.scoresLeft {
+    background-color: rgb(24, 24, 151);
+    border-color: rgb(15, 15, 92);
+    color: white;
+}
+
+.scoresRight {
+    background-color: rgb(138, 13, 13);
+    border-color: rgb(75, 10, 10);
+    color: white;
+}
+
+.tittleMiddle {
+    background-color: orange;
+}
+
+.userVisual {
+    max-width: 70%;
+    min-width: 250px;
+    height: auto;
+}
+
+.computerVisual {
+    max-width: 70%;
+    min-width: 250px;
+    height: auto;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    float: right;
+}
+
+.rightSide {
+    background-color: rgb(138, 13, 13);
+    height: 400px;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+  }
+  
+.leftSide {
+    background-color: rgb(24, 24, 151);
+    min-width: 250px;
+    height:400px;
+    display: flex;
+    align-items: center;
+}
+  
+.middle {
+    border-left: 100px solid rgb(24, 24, 151);
+    border-top: 400px solid rgb(138, 13, 13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fightBox {
+    display: flex;
+}
+
+.rightScores {
+    text-align: end;
+}
+
+button {
+    margin: 15px 15px;
+    font-size: 40px;
+    padding: 5px 30px;
+    background-color: rgb(113, 165, 22);
+    color: white;
+    border-radius: 20px;
+}
+
+#result {
+    position: absolute;
+    background-color: gray;
+    font-size: 50px;
+    width: 300px;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 30px;
+}
